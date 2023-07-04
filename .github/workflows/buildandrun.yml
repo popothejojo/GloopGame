@@ -11,6 +11,8 @@ jobs:
       - run: echo "🔎 The name of the current branch is ${{ github.ref }} and the repository is ${{ github.repository }}."
       - name: Cache
         uses: actions/cache@v1.2.1
+        with:
+          path: ~/GloopGame/Library/
       - run: echo "📈 Building Branch ${{ github.ref }} and the repository is ${{ github.repository }}."
       - name: Unity - Builder
         uses: game-ci/unity-builder@v2
