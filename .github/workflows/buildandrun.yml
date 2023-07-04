@@ -1,6 +1,6 @@
-name: Actions 😎
+name: 📈Build All Platforms
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   buildAndTestForLinuxBasedPlatforms:
