@@ -39,7 +39,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2762672574423240110
 SpriteRenderer:
@@ -183,6 +183,7 @@ MonoBehaviour:
   moveSpeed: 7
   jumpForce: 14
   jumpSoundEffect: {fileID: 1225514875516357175}
+  bullet: {fileID: 4487150204411618217, guid: 32e832dbcb9549740ae44e58148b1028, type: 3}
 --- !u!95 &232798424124838675
 Animator:
   serializedVersion: 5
