@@ -30,6 +30,15 @@ jobs:
           restore-keys: |
             Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-
             Library-${{ matrix.projectPath }}-
+            Library-
+      # - uses: game-ci/unity-test-runner@v2
+      #   id: testRunner
+      #   env:
+      #     UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      #   with:
+      #     projectPath: ${{ matrix.projectPath }}
+      #     unityVersion: ${{ matrix.unityVersion }}
+      #     githubToken: ${{ secrets.ACTION_TOKEN }}
       - uses: actions/upload-artifact@v2
         if: always()
         with:
