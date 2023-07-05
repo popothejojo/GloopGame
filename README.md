@@ -33,7 +33,9 @@ Make sure your Unity Hub is up to date to version 2022.3.0
 ## Controls
 
 Move Left - A or Left Arrow
+
 Move Right - D or Right Arrow
+
 Jump - Spacebar
 
 ## Gameplay
