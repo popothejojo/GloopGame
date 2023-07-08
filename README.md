@@ -38,6 +38,8 @@ Move Right - D or Right Arrow
 
 Jump - Spacebar
 
+Shoot - E (NOTHING TO SHOOT YET)
+
 ## Gameplay
 
 The goal of the game is to reach them end of the level while collecting items on the way. The player has to dodge traps and navigate obstacles to reach the finish.
